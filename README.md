@@ -14,7 +14,7 @@
 - ReactJS
 - Material UI, Formik, yup, react router dom, redux, redux thunk, react-map-gl and mapbox, axios,..
 #### Live Demo:
-https://my-airbnb-app-clone.netlify.app
+https://airdnd.netlify.app/
 
 
 

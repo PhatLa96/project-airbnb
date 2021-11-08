@@ -19,12 +19,12 @@ export default function OptionsDialog(props) {
         { id: 1, name: 'elevator', label: 'Thang máy' },
         { id: 2, name: 'hotTub', label: 'Bồn nước nóng' },
         { id: 3, name: 'pool', label: 'Hồ bơi' },
-        { id: 4, name: 'indoorFireplace', label: 'Lò sửu' },
+        { id: 4, name: 'indoorFireplace', label: 'Lò sưởi' },
         { id: 5, name: 'dryer', label: 'Máy sáy' },
         { id: 6, name: 'gym', label: 'Phòng gym' },
         { id: 7, name: 'kitchen', label: 'Phòng bếp' },
         { id: 8, name: 'wifi', label: 'Wifi' },
-        { id: 9, name: 'heating', label: 'Máy sửu' },
+        { id: 9, name: 'heating', label: 'Máy sưởi' },
         { id: 10, name: 'cableTV', label: 'TV Cáp' },
     ];
 
