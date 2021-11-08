@@ -1,38 +1,20 @@
--- package:
+## Aribnb Clone Project
+#### Team size: 3
+- https://github.com/AndyLab9596
+- https://github.com/QuangHuy312
+- https://github.com/PhatLa96
+#### Features: 
+- Login, logout, register.
+- Searching hotel rooms depend on places on the map.
+- Booking hotel rooms. 
+- Display locations and hotel rooms
+- Fully responsive.
+- Admin Features: CRUD locations, rooms, users.
+#### Technologies:
+- ReactJS
+- Material UI, Formik, yup, react router dom, redux, redux thunk, react-map-gl and mapbox, axios,..
+#### Live Demo:
+https://my-airbnb-app-clone.netlify.app
 
-- material UI
-- react-router-dom
-- redux
-- react-redux
-- redux-thunk
-- axios
 
---
 
-<div className={classes.filter__item}>
-                            <button className={classes.filter__item__button} onClick={(event) => handleOpenPrice(event)}>
-                                <span>Giá</span>
-                            </button>
-                        </div>
-
-                        {/* Modal Price */}
-                        <Menu
-                            id="price-menu"
-                            anchorReference="anchorPosition"
-                            anchorPosition={{ top: 250, left: 10 }}
-                            anchorOrigin={{
-                                vertical: 'bottom',
-                                horizontal: 'center',
-                            }}
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'center',
-                            }}
-                            anchorEl={anchorElPrice}
-                            keepMounted
-                            open={Boolean(anchorElPrice)}
-                            onClose={handleClosePrice}
-                            className={classes.rootPriceMenu}
-                        >
-                            <PriceMenu />
-                        </Menu>
