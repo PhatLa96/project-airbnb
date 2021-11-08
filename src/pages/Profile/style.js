@@ -203,7 +203,7 @@ export default makeStyles((theme) => ({
   },
   modal__style: {
 
-    height: "595px",
+    height: "555px",
 
     overflowY: "auto",
     [theme.breakpoints.down("lg")]: {
